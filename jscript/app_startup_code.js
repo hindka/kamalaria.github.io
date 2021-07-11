@@ -30,8 +30,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://plaudismehind.go.yj.fr/final_model/model.json');
-	$("#selected-image").attr("src", "https://xrayspoumon.go.yj.fr/assets/parasitized.png");
+	model = await tf.loadModel('https://kamalaria.github.io/final_model/model.json');
+	$("#selected-image").attr("src", "https://kamalaria.github.io/assets/parasitized.png");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
